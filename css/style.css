@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
 a{
     text-decoration: none;
 }
@@ -21,7 +27,7 @@ header{
 }
 
 #nav-bar{
-    width: 80%;
+    width: 70%;
     min-height: 50px;
     margin: 0 auto;
 
@@ -59,8 +65,9 @@ header{
 /* body */
 
 #container{
-    width: 80%;
-    margin: 70px auto 20px auto;
+    width: 70%;
+    margin: 100px auto 20px auto;
+    min-height: 700px;
 
 }
 
@@ -70,25 +77,37 @@ header{
     margin-bottom: 20px;
 }
 
-.img-shop{
+.shop{
     width: 32%;
+    display: flex;
+    flex-direction: column;  
+}
+
+.shop img{
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.dicount-price, .real-price{
+    font-size: 15px;
+}
+
+.dicount-price{
+    color: red;
+    font-weight:bold;
+}
+
+.real-price{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.65);
 }
 
 /* debug body*/
-#container{
-    border: 2px solid black;
-    min-height: 700px;
-}
 
-.row{
-    border: 2px solid black;
-    min-height: 600px;
-}
 
-.img-shop{
-    border: 2px solid black;
-   
-}
+
+
+
 /* /debug */
 
 
@@ -100,7 +119,7 @@ footer{
 }
 
 #container-footer{
-    width: 80%;
+    width: 70%;
     margin: auto;
     color: white;
     
