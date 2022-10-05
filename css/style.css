@@ -152,7 +152,8 @@ header{
 }
 
 .img-foto:hover .hidden{
-    display: block;
+    display: inline;
+    
 }
 
 .img-foto:hover .hidden-after{
