@@ -66,7 +66,7 @@ header{
 
 #container{
     width: 70%;
-    margin: 100px auto 20px auto;
+    margin: 100px auto 50px auto;
     min-height: 700px;
 
 }
@@ -88,6 +88,7 @@ header{
     padding-bottom: 5px;
 }
 
+/* testo sotto l'immagine */
 .dicount-price, .real-price{
     font-size: 15px;
 }
@@ -101,7 +102,12 @@ header{
     text-decoration: line-through;
     color: rgba(0, 0, 0, 0.65);
 }
+.marca{
+    font-size: 14px;
+    color: gray;
+}
 
+/* Posizionamento scritte sull'immagine */
 .img-foto{
     position: relative;
 }
