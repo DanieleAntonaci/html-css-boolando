@@ -198,3 +198,8 @@ footer{
     color: white;
 }
 
+/* hover hearts */
+
+.heart:hover{
+    color: red;
+}
