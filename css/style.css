@@ -66,7 +66,7 @@ header{
 
 #container{
     width: 70%;
-    margin: 100px auto 50px auto;
+    margin: 100px auto 0 auto;
     min-height: 700px;
 
 }
@@ -81,11 +81,12 @@ header{
     width: 32%;
     display: flex;
     flex-direction: column;  
+    padding-bottom: 20px;
 }
 
 .shop img{
     width: 100%;
-    padding-bottom: 5px;
+    height: 538.45px;
 }
 
 /* testo sotto l'immagine */
@@ -144,8 +145,19 @@ header{
     background-color: green;
 }
 
+/* Hover */
 
+.hidden{
+    display: none;
+}
 
+.img-foto:hover .hidden{
+    display: block;
+}
+
+.img-foto:hover .hidden-after{
+    display: none;
+}
 
 
 /* footer */
