@@ -13,6 +13,11 @@ a{
 
 header{
     background-color: #ff6900;
+
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
 }
 
 #nav-bar{
@@ -52,9 +57,10 @@ header{
 
 
 /* body */
+
 #container{
     width: 80%;
-    margin: 20px auto;
+    margin: 70px auto 20px auto;
 
 }
 
