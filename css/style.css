@@ -4,16 +4,20 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 /* header */
 
 header{
-    background-color: orange;
-    color: white;
+    background-color: #ff6900;
 }
 
 #nav-bar{
     width: 80%;
+    min-height: 50px;
     margin: 0 auto;
 
     display: flex;
@@ -21,25 +25,31 @@ header{
     align-items: center;
 }
 
+#nav-bar div{
+    width: calc(100%/3);
+}
+
+#nav-bar a{
+    color: white;
+    font-weight: 600;
+    padding-right: 2%;
+}
+
 #nav-logo{
     text-align: center;
 }
+#nav-logo>img{
+    max-height: 25px;
+}
 #nav-shop{
     text-align: right;
+
+}
+#nav-shop i{
+    color: white;
 }
 
-/* debug header */
-#nav-bar{
-    border: 2px solid black;
-    min-height: 100px;
-    
-}
 
-#nav-bar div{
-    border: 2px solid black;
-    width: calc(100%/3);
-}
-/* /debug */
 
 /* body */
 #container{
